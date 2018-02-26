@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>spring-boot-jwt2</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot JWT</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -28,6 +28,26 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.6.0</version>
 		</dependency>
 
 		<dependency>
